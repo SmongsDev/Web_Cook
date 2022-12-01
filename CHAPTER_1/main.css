@@ -4,3 +4,10 @@
 body {
   margin-left: 50px;
 }
+canvas {
+  display: none;
+}
+.correct{
+  background-color: #24399f;
+  color:white;
+}

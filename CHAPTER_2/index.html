@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatting Game</title>
+  <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="impress">
+    <div id="1" class="step slide">
+      <div class="slide-text">
+        <p>여기 타임머신이 있습니다. 스위치를 켜시겠습니까?</p>
+        <p><a href="#2">네</a>, 스위치를 켭니다.</p>
+        <p><a href="#3">아니오</a>, 과학자인 아빠가 집에 오기를 기다립니다.</p>
+      </div>
+    </div>
+    <div id="2" class="step slide">
+      <div class="slide-text">
+        <p>시간에 맞춰 집에 돌아왔습니다. 즐거운 모험이었습니다.</p>
+      </div>
+      <div class="menu"><a href="#1">다시 시작하기</a></div>
+    </div>
+    <div id="3" class="step slide" data-x="-1500">
+      <div class="slide-text">
+        <p>아빠가 돌아올 때까지 한동안 아무것도 하지 못했습니다. 그리고 아빠가 돌아왔습니다.</p>
+        <p>아빠는 당신의 숙제를 도와주셨습니다.</p>
+        <p>덕분에 지루하진 않았지만 그렇다고 아주 재미있지도 않았습니다.</p>
+      </div>
+      <div class="menu"><a href="#1">다시 시작하기</a></div>
+    </div>
+  </div>
+  <script src="../js_recipe/impress.js"></script>
+  <script>impress().init();</script>
+</body>
+</html>
